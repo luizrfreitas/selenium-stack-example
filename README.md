@@ -9,9 +9,7 @@ Study and test project to create a robust production ready stack for testing usi
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/project-name.git
+[...]
 
 ## Stack
 
