@@ -1,4 +1,2 @@
-selenium==4.6.0
-pytest==7.4.0
-pytest-xdist==3.0.2
-requests
+selenium
+python-dotenv
