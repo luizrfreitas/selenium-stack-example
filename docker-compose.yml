@@ -8,8 +8,8 @@ services:
     build:
       dockerfile: .docker/python/Dockerfile
     volumes:
-      - ./src:/src
-    working_dir: /src
+      - ./app:/app
+    working_dir: /app
     networks:
       - selenium
 

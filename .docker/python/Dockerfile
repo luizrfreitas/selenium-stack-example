@@ -13,7 +13,7 @@ RUN pip install -r requirements.txt
 # COPY . .
 
 # Set the PYTHONPATH to include the src directory
-ENV PYTHONPATH=/src
+ENV PYTHONPATH=/app
 
 # Set the entry point for running the application
 # CMD ["python", "app.py"]

@@ -6,5 +6,5 @@ RESET = \033[0m
 
 test:
 	@echo "$(LIGHT_BLUE)Running tests...$(RESET)"
-	@docker exec python pytest --clear-cache
+	@docker exec python python -m unittest discover -s tests -p "*Test.py"
 	@echo "$(LIGHT_BLUE)Tests completed.$(RESET)"
